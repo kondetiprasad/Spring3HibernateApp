@@ -129,14 +129,14 @@
     <artifactId>gitflow-maven-plugin</artifactId>
     <version>1.9.0</version>-->
             <configuration>
-               <pushReleases>false</pushReleases>
-               <keepBranch>false</keepBranch>
-               <noTag>true</noTag>
-               <autoVersionSubmodules>true</autoVersionSubmodules>
-               <allowUntracked>true</allowUntracked>
-               <pullDevelop>true</pullDevelop>
-               <pullMaster>true</pullMaster>
-               <allowSnapshots>true</allowSnapshots>
+          <pushReleases>true</pushReleases>
+          <keepBranch>false</keepBranch>
+          <autoVersionSubmodules>true</autoVersionSubmodules>
+          <noTag>true</noTag>
+          <allowUntracked>true</allowUntracked>
+          <pullDevelop>true</pullDevelop>
+          <pullMaster>true</pullMaster>
+          <allowSnapshots>true</allowSnapshots>
             <!--   <fetchRemote>false</fetchRemote>
               <gitFlowConfig>
                   <productionBranch>master-OrclCiCdPOC</productionBranch>
