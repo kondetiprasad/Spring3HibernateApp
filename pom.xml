@@ -144,8 +144,8 @@
                   <origin>origin</origin>
                </gitFlowConfig>-->
 		  		<flowInitContext>
-                     		<masterBranchName>master2</masterBranchName>
-                     		<developBranchName>dev-OrclCiCdPOC</developBranchName>
+                     		<masterBranchName>master</masterBranchName>
+                     		<developBranchName>development</developBranchName>
                   		</flowInitContext>
             </configuration>
          </plugin>
