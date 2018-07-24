@@ -4,8 +4,8 @@
    <artifactId>Spring3HibernateApp</artifactId>
    <packaging>war</packaging>
    <scm>
-      <connection>scm:git:git@github.com:kondetiprasad/ContinuousIntegration.git</connection>
-      <developerConnection>scm:git:git@github.com:kondetiprasad/ContinuousIntegration.git</developerConnection>
+      <connection>scm:git:git@github.com:kondetiprasad/Spring3HibernateApp.git</connection>
+      <developerConnection>scm:git:git@github.com:kondetiprasad/Spring3HibernateApp.git</developerConnection>
    </scm>
    <distributionManagement>
       <!-- use the following if you're not using a snapshot version. -->
@@ -144,8 +144,8 @@
                   <origin>origin</origin>
                </gitFlowConfig>-->
 		  		<flowInitContext>
-                     		<masterBranchName>master2</masterBranchName>
-                     		<developBranchName>dev-OrclCiCdPOC</developBranchName>
+                     		<masterBranchName>master</masterBranchName>
+                     		<developBranchName>development</developBranchName>
                   		</flowInitContext>
             </configuration>
          </plugin>
@@ -177,7 +177,7 @@
          </plugin>
       </plugins>
    </build>
-   <version>1.54-SNAPSHOT</version>
+   <version>1.55</version>
    <name>Spring3HibernateApp</name>
    <url>http://maven.apache.org</url>
    <dependencies>
