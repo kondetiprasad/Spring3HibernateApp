@@ -12,11 +12,11 @@
       <!-- use the following if you're not using a snapshot version. -->
       <repository>
          <id>nexusAuth</id>
-         <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+         <url>http://localhost:8081/content/repositories/releases/</url>
       </repository>
       <snapshotRepository>
          <id>nexusAuth</id>
-         <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+         <url>http://localhost:8081/content/repositories/snapshots/</url>
       </snapshotRepository>
    </distributionManagement>
    <reporting>
