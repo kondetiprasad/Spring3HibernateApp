@@ -178,7 +178,7 @@
          </plugin>
       </plugins>
    </build>
-   <version>1.96-SNAPSHOT</version>
+   <version>1.97-SNAPSHOT</version>
    <name>Spring3HibernateApp</name>
    <url>http://maven.apache.org</url>
    <dependencies>
